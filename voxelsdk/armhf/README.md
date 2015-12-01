@@ -3,3 +3,9 @@ These are the DEB packages for armhf architectures.  These packages were generat
 To install the packages, after download them all to a folder, do:
 
      $ sudo dpkg -i *.deb 
+
+If you want a one-stop script that install Voxel SDK and all its prerequisits, then
+
+     $ sudo ./install.sh 
+
+Make sure you're conneccted to the network.
